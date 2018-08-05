@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poiret One', cursive;
+}
+
 td {
     border: 2px solid black;
     height: 100px;
@@ -34,6 +38,9 @@ table tr td:last-child {
 
 .endgame {
     display: none;
+    background: black;
+    color: white;
+    opacity: 0.85;
     width: 200px;
     top: 120px;
     position: absolute;
